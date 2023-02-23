@@ -1,0 +1,43 @@
+@font-face{
+	font-family: 'SF UI Display';
+	src: url('light.ttf');
+}
+
+
+
+html{
+	font-family: 'SF UI Display';
+	text-align: center;
+	color: black;
+
+
+}
+
+html{
+	background-color: cornflowerblue;
+}
+
+a:hover{
+	color: fuchsia;
+	text-shadow: 1px 1px 2px fuchsia;
+}
+
+a:active{
+	color: fuchsia;
+	text-shadow: 1px 1px 2px fuchsia;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px black;
+}
+
+.video{
+	text-align: center;
+}
+
+
+video::-webkit-media-controls-time-remaining-display{
+visibility:hidden
+}
